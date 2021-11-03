@@ -1,0 +1,509 @@
+@charset "UTF-8";
+/*******************************************/
+/*******************************************/
+/********************COLORES******************/
+/******************FONDOS*******************/
+/*******FUENTES TIPOGRAFICAS******/
+/*****************BOTONES********************/
+/************TIPOGRAFIA**********************/
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16PX; }
+
+/*fuentes*/
+@font-face {
+  font-family: ´robotoblack´;
+  src: url(../assets/Fuentes/robotoblack.ttf); }
+
+@font-face {
+  font-family: ´robotolight´;
+  src: url(../assets/fuentes/robotolight.ttf); }
+
+@font-face {
+  font-family: ´robotomedium´;
+  src: url(../assets/fuentes/robotomedium.ttf); }
+
+@font-face {
+  font-family: ´robotoregular´;
+  src: url(../assets/fuentes/robotoregular.ttf); }
+
+@font-face {
+  font-family: ´robotobold´;
+  src: url(../assets/fuentes/robotobold.ttf); }
+
+main {
+  display: block;
+  padding-top: 60px; }
+
+/*******************HEADER**************************/
+/************BARRA DE NAVEGACION HEADER*************/
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  background-color: #2d2d2d; }
+
+header a {
+  font-size: 90%;
+  color: #3a3333;
+  transition: 0.5s; }
+
+#hoverNav {
+  color: #d8d8d8; }
+
+#hoverNav:hover {
+  color: white; }
+
+/*************LOGO*****************/
+.logo {
+  width: 60px; }
+
+/**************FOOTER******************/
+/*tipografias footer*/
+footer a {
+  font-family: ´robotoregular´;
+  text-decoration: none;
+  color: #707070;
+  transition: 0.5s; }
+
+footer a:hover {
+  color: white; }
+
+footer {
+  background-color: #2d2d2d;
+  height: 420px; }
+
+#redes {
+  margin-right: 4%; }
+
+footer h5 {
+  color: white; }
+
+footer a {
+  color: #707070; }
+
+.rFooter {
+  height: 300px; }
+
+.colorCopy {
+  color: #707070; }
+
+/**********TITULOS*************/
+h1 {
+  color: black;
+  font-family: ´robotobold´; }
+
+h2 {
+  color: #2d2d2d;
+  font-family: ´robotomedium´;
+  text-align: center; }
+
+h3 {
+  color: black;
+  font-family: ´robotomedium´;
+  font-size: 190%; }
+
+h4 {
+  color: black;
+  font-family: ´robotobold´;
+  font-size: 220%; }
+
+h5 {
+  font-family: ´robotoregular´;
+  font-size: 300%; }
+
+/************PARRAFOS****************/
+p {
+  color: black;
+  font-family: ´robotoregular´; }
+
+/*************BOTONES****************/
+button {
+  font-family: ´robotoregular´; }
+
+#button {
+  background-color: #2b2b2b;
+  border-color: #2b2b2b; }
+
+#button:hover {
+  background-color: black; }
+
+#button a {
+  text-decoration: none;
+  color: white; }
+
+.responsive {
+  width: 150px; }
+
+/************************************/
+/**************INDEX*****************/
+/************************************/
+/******PORTADA INDEX***********/
+#tituloIndex, #tituloIndex--dos, #tituloIndex--tres, #tituloIndex--cuatro {
+  color: #2d2d2d;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  margin-top: 10%;
+  padding-right: 10%;
+  padding-left: 10%; }
+
+#tituloIndex--dos {
+  margin-top: 30%; }
+
+#tituloIndex--tres {
+  margin-bottom: 40%; }
+
+#tituloIndex--cuatro {
+  margin-bottom: 43%; }
+
+.diseñoPortada {
+  display: flex;
+  position: relative;
+  align-items: center; }
+
+/*************SECCION SERVICIOS*****************/
+.seccionServicios {
+  display: flex;
+  flex-direction: column;
+  flex-flow: wrap;
+  justify-content: center; }
+
+.seccionServicios h2 {
+  margin-top: 3%; }
+
+/**********MARGENES SECCIONES********/
+/*******SECCION 2 INDEX*********/
+.seccion2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 500px; }
+
+.seccion2 p {
+  line-height: 1.8;
+  text-align: center; }
+
+.seccion2 img {
+  justify-items: center; }
+
+.seccion2 h3 {
+  text-align: center; }
+
+.seccion2 button {
+  text-align: center; }
+
+/*************SECCION 3 INDEX******************/
+.seccion3 {
+  background-color: #ecebeb; }
+
+.textoSeccion3 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 500px; }
+
+.textoSeccion3 p {
+  line-height: 1.8;
+  text-align: center; }
+
+/********SECCION 4 INDEX************/
+.seccion4 p {
+  line-height: 1.8;
+  text-align: center; }
+
+.seccion4 h3 {
+  text-align: center; }
+
+.seccion4 img {
+  justify-items: center; }
+
+.seccion4 button {
+  text-align: center; }
+
+.seccion4Flex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 500px; }
+
+/************HERRAMIENTAS**************/
+.herramientasTitulo {
+  font-family: ´robotomedium´;
+  font-size: 150%;
+  color: white;
+  margin-bottom: 0%; }
+
+.herramientasParrafo {
+  font-family: ´robotoregular´;
+  color: white;
+  margin-bottom: 0%; }
+
+/*******METODOLOGIA DE TRABAJO***********/
+.metodologiaDeTrabajo {
+  background-color: #dbdbdb;
+  text-align: center; }
+
+h6 {
+  font-family: ´robotomedium´;
+  font-size: 240%;
+  margin: 3%; }
+
+.metodologia {
+  font-family: ´robotoregular´;
+  font-size: 150%; }
+
+.parrafoMetodologia {
+  font-family: ´robotomedium´;
+  font-size: 137,5%; }
+
+/***************PRESUPUESTO**************/
+.presupuesto {
+  text-align: center; }
+
+.presupuesto p {
+  font-family: ´robotobold´;
+  font-size: 240%; }
+
+/**************NEWSLETTER******************/
+.colorNewsletter {
+  background-color: #dbdbdb; }
+
+#inputNewsletter {
+  font-family: ´robotoregular´;
+  font-size: 100%;
+  transition: all 1s; }
+
+.newsletter div {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 5%;
+  align-items: flex-start; }
+
+.newsletter div p {
+  width: 600px;
+  line-height: 1.8;
+  margin-top: 2%;
+  margin-bottom: 2%; }
+
+.newsletter div input {
+  width: 600px; }
+
+#inputNewsletter:focus {
+  transform: scale(1.5); }
+
+/*CSS Para paginas especificas*/
+/*posicion ilustracion h3 index*/
+.posicionIlustracion {
+  height: 700px; }
+
+.posicionIlustracion img {
+  position: relative;
+  top: 20px;
+  width: 50%; }
+
+.posicionIlustracion div {
+  text-align: center;
+  display: inline-block;
+  font-size: 100%;
+  width: 50%;
+  line-height: 1.8;
+  position: relative;
+  left: 50%;
+  bottom: 410px; }
+
+.posicionIlustracion div p {
+  margin-left: 120px;
+  margin-right: 120px; }
+
+.posicionIlustracion div button {
+  position: relative;
+  top: 20px; }
+
+.posicionIlustracion div h3 {
+  position: relative;
+  bottom: 20px; }
+
+/*************************************************************/
+/*****************DISEÑO PAGINAS WEBS*************************/
+/*************************************************************/
+/****************PORTADA*****************/
+.diseñoPortada2 {
+  display: flex;
+  position: relative;
+  align-items: center; }
+
+.diseñoPortada2 h1 {
+  width: 40%;
+  text-align: left;
+  padding-left: 8%;
+  color: #2d2d2d;
+  position: absolute; }
+
+/***************SECCION HERRAMIENTAS*****************/
+.colorSeccionHerramientas {
+  background-color: #35283c; }
+
+.seccionHerramientas {
+  background-color: #35283c;
+  display: flex;
+  flex-direction: column;
+  flex-flow: wrap;
+  justify-content: center; }
+
+.seccionHerramientas h2 {
+  color: white;
+  margin-top: 3%;
+  text-align: center; }
+
+.margenHerramientas {
+  padding-left: 5%; }
+
+/*******************************************************/
+/**************TIENDAS ONLINE***************************/
+/*******************************************************/
+/***************HERRAMIENTAS**************************/
+/************SECCION TIPOS DE TIENDAS*********************/
+.seccionServicios h5 {
+  color: #2d2d2d;
+  font-family: ´robotomedium´;
+  font-size: 220%;
+  text-align: center;
+  margin-top: 3%; }
+
+/*****************************************************/
+/******************APLICACIONES***********************/
+/*****************************************************/
+.diseñoPortada .tituloApps {
+  text-align: center;
+  margin-top: 10%;
+  color: #2d2d2d; }
+
+/******************************************************/
+/***************DISEÑO GRAFICO*************************/
+/******************************************************/
+.tituloDisenoGrafico {
+  color: white; }
+
+/********************************************/
+/*****************TE ESCUCHAMOS**************/
+.colorTeEscuchamos div h1 {
+  text-align: center; }
+
+.colorTeEscuchamos {
+  background-color: white; }
+
+.colorTeEscuchamos textarea {
+  height: 200px; }
+
+/***************************************************************************************/
+/*****************************************MEDIA QUERIES*********************************/
+/***************************************************************************************/
+/*******************TABLET****************************/
+/*****************************************************/
+@media only screen and (max-width: 1024px) {
+  .seccion2 h3 {
+    font-size: 120%; }
+  .seccion2 p {
+    font-size: 90%; }
+  .seccion2 {
+    height: 0%; }
+  .textoSeccion3 {
+    height: 0%; }
+  .textoSeccion3 h3 {
+    font-size: 120%; }
+  .textoSeccion3 p {
+    font-size: 90%; }
+  .seccion3 {
+    padding-top: 3%;
+    padding-bottom: 3%; }
+  .seccion4Flex {
+    height: 0%;
+    padding-top: 3%;
+    padding-bottom: 3%; }
+  .seccion4Flex p {
+    font-size: 90%; }
+  .seccion4Flex h3 {
+    font-size: 120%; }
+  .rFooter h5 {
+    font-size: 100%; }
+  .rFooter a {
+    font-size: 80%; }
+  .rFooter p {
+    font-size: 80%; }
+  /*no agrandar imputs*/
+  #inputNewsletter:focus {
+    transform: none; } }
+
+@media only screen and (max-width: 768px) {
+  /*****INDEX - HEADER - FOOTER****/
+  .seccion2 {
+    padding-top: 4%; }
+  .textoSeccion3 {
+    padding-top: 4%; }
+  #tituloIndex, #tituloIndex--dos, #tituloIndex--tres, #tituloIndex--cuatro {
+    font-size: 120%; }
+  .titulodisenoweb {
+    font-size: 120%; }
+  .seccionServicios h2 {
+    font-size: 120%; }
+  #rSeccion3 {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%; }
+  #imgResp {
+    width: 25%;
+    align-items: center;
+    padding: 2%; }
+  .colorNewsletter p {
+    font-size: 90%; }
+  .colorNewsletter h4 {
+    font-size: 120%; }
+  #inputNewsletter {
+    font-size: 80%; }
+  #imgRespSecciones {
+    width: 45%;
+    align-items: center;
+    padding: 0%; }
+  .rFooter {
+    align-items: center; }
+  footer {
+    height: 660px; }
+  #redes {
+    width: 10%; }
+  /***********DISEÑO WEB*********/
+  .respMetodologia {
+    text-align: left; }
+  .parrafoMetodologia div {
+    padding: 2%; } }
+
+@media only screen and (max-width: 576px) {
+  footer div {
+    padding-left: 0.5rem; } }
+
+@media only screen and (max-width: 480px) {
+  #tituloIndex, #tituloIndex--dos, #tituloIndex--tres, #tituloIndex--cuatro {
+    font-size: 90%; }
+  .titulodisenoweb {
+    font-size: 90%; }
+  .colorNewsletter p {
+    font-size: 60%; }
+  footer div {
+    padding-left: .5rem; } }
+
+/*******************************************/
+/*******************************************/
+/********************COLORES******************/
+/******************FONDOS*******************/
+/*******FUENTES TIPOGRAFICAS******/
+/*****************BOTONES********************/
