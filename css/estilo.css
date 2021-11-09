@@ -442,7 +442,10 @@ h6 {
     font-size: 80%; }
   /*no agrandar imputs*/
   #inputNewsletter:focus {
-    transform: none; } }
+    transform: none; }
+  main {
+    display: block;
+    padding-top: 65px; } }
 
 @media only screen and (max-width: 768px) {
   /*****INDEX - HEADER - FOOTER****/
@@ -500,7 +503,10 @@ h6 {
   .colorNewsletter p {
     font-size: 60%; }
   footer div {
-    padding-left: .5rem; } }
+    padding-left: .5rem; }
+  main {
+    display: block;
+    padding-top: 67px; } }
 
 /*******************************************/
 /*******************************************/

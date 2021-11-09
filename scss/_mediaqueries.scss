@@ -39,6 +39,10 @@
     #inputNewsletter:focus{
       transform: none;
     }
+    main{
+      display: block;
+      padding-top: 65px;
+  }
     }
   
   @media only screen and (max-width: 768px) {
@@ -99,4 +103,9 @@
     .colorNewsletter p {
       font-size: 60%; }
     footer div {
-      padding-left: .5rem; } }
+      padding-left: .5rem; } 
+      main{
+        display: block;
+        padding-top: 67px;
+    }
+    }
