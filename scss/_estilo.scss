@@ -42,12 +42,13 @@ header{
     width: 100%;
     z-index: 99;
     background-color: $primercolor;
+    a{
+        font-size: 90%;
+        color: $tipografianav2;
+        transition: 0.5s;
+    }
 }
-header a{
-    font-size: 90%;
-    color: $tipografianav2;
-    transition: 0.5s;
-}
+
 #hoverNav{
     color: $tipografianav;
 }
@@ -62,19 +63,20 @@ header a{
 /**************FOOTER******************/
 
 /*tipografias footer*/
-footer a{
-    font-family: $regular;
-    text-decoration: none;
-    color: $tipografiasgrisfooter;  
-    transition: 0.5s;  
-}
+
 footer a:hover{
     color: $tipografiablanca;
 }
 
 footer{
     background-color: $primercolor;
-    height: 420px;       
+    height: 420px;    
+    a{
+        font-family: $regular;
+        text-decoration: none;
+        color: $tipografiasgrisfooter;  
+        transition: 0.5s;  
+    }   
 }
 #redes{
     margin-right: 4%;
@@ -82,9 +84,7 @@ footer{
 footer h5{
     color: $tipografiablanca;
 }
-footer a{
-    color: $tipografiasgrisfooter;
-}
+
 .rFooter{
     height: 300px;
 }
@@ -95,8 +95,9 @@ footer a{
 /**********TITULOS*************/
 h1{
     color: $tipografianormal;
-    font-family: $bold;          
+    font-family: $bold;       
 }
+
 
 h2{
     color: $primercolor;
@@ -127,14 +128,14 @@ button{
     font-family: $regular;    
 }
 
+#button:hover{
+    background-color: $botonhover;
+    box-shadow: 0px 0px 3px 1px rgba(204, 204, 204, 0.897);   
+    transform: scale(1.004);
+}
 #button{
     background-color: $colorboton; 
     border-color: $botonborde;
-}
-#button:hover{
-    background-color: $botonhover;
-}
-#button{
     a{
         text-decoration: none;
         color: $tipografiablanca;
@@ -160,16 +161,22 @@ button{
 }
 #tituloIndex--dos{
     @extend #tituloIndex;    
-    margin-top: 30%
+    margin-top: 30%;
+    color: black;
 }
 #tituloIndex--tres{
     @extend #tituloIndex;
-    margin-bottom: 40%;
+    margin-top: 30%;
+    text-align: right;
 } 
 #tituloIndex--cuatro{
     @extend #tituloIndex;
     margin-bottom: 43%;
 } 
+#tituloIndex--cinco{
+    @extend #tituloIndex;
+    margin-bottom: 15%;
+}
 
 .diseñoPortada{
     display: flex;
@@ -446,9 +453,8 @@ h6{
         }
     }
 }
-.colorTeEscuchamos{
-    background-color: $fondowhite;
-    ;
+.colorTeEscuchamos{    
+    background-image: linear-gradient($fondowhite,$fondowhite, $fondowhite,$newsletter,$newsletter,$newsletter)  
 }
 .colorTeEscuchamos{
     textarea{
