@@ -45,7 +45,7 @@
   }
     }
   
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 767px) {
     /*****INDEX - HEADER - FOOTER****/
     .seccion2 {
       padding-top: 4%; }
@@ -55,9 +55,7 @@
       font-size: 120%; }
     .titulodisenoweb{
       font-size: 120%;
-    }
-    .seccionServicios h2 {
-      font-size: 120%; }
+    }    
     #rSeccion3 {
       display: flex;
       flex-direction: column-reverse;
@@ -85,15 +83,28 @@
     #redes {
       width: 10%; }
     /***********DISEÑO WEB*********/
-    .respMetodologia {
-      text-align: left; }
-    .parrafoMetodologia div {
-      padding: 2%; } }
+    .metodologiaDeTrabajo{
+      .margenMetodologia div{
+        padding: 2%;
+        padding-left: 10%;
+      }
+      p{
+        text-align: left;
+      }
+    }     
+    }
   
-  @media only screen and (max-width: 576px) {
+  @media only screen and (max-width: 575px) {
     footer div {
-      padding-left: 0.5rem; } }
-  
+      padding-left: 0.5rem; } 
+    
+    .margenHerramientas{
+    padding-left: 0%;
+}
+#corte{
+  padding-left: 1.25rem;
+}
+}
   @media only screen and (max-width: 480px) {
     #tituloIndex {
       font-size: 90%; }

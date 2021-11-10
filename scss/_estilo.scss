@@ -97,8 +97,6 @@ h1{
     color: $tipografianormal;
     font-family: $bold;       
 }
-
-
 h2{
     color: $primercolor;
     font-family: $medium;   
@@ -130,7 +128,7 @@ button{
 
 #button:hover{
     background-color: $botonhover;
-    box-shadow: 0px 0px 3px 1px rgba(204, 204, 204, 0.897);   
+    box-shadow: 0px 0px 4px 1px rgba(204, 204, 204, 0.897);   
     transform: scale(1.004);
 }
 #button{
@@ -193,7 +191,6 @@ button{
 .seccionServicios h2{
     margin-top: 3%;
 }
-/**********MARGENES SECCIONES********/
 
 /*******SECCION 2 INDEX*********/
 
@@ -275,24 +272,21 @@ button{
     color: $tipografiablanca;    
     margin-bottom: 0%;
 }
-
+.margenHerramientas{
+    padding-left: 10%;
+}
 /*******METODOLOGIA DE TRABAJO***********/
 .metodologiaDeTrabajo{
     background-color: rgb(219,219,219);         
-    text-align: center;          
-}
-h6{
-    font-family: $medium;
-    font-size: 240%;
-    margin: 3%;
+    text-align: center; 
+    p{
+        font-family: $medium;
+        font-size: 137,5%;   
+    }         
 }
 .metodologia{
     font-family: $regular;
     font-size: 150%;    
-}
-.parrafoMetodologia{   
-    font-family: $medium;
-    font-size: 137,5%;   
 }
 
 /***************PRESUPUESTO**************/
@@ -303,19 +297,15 @@ h6{
     font-family: $bold;
     font-size: 240%;     
 }
-
-
 /**************NEWSLETTER******************/
 .colorNewsletter{    
     background-color: $newsletter;       
 }
-
 #inputNewsletter{
     font-family: $regular;
     font-size: 100%;
     transition: all 1s;
 }
-
 .newsletter div{
     display: flex;
     flex-direction: column;
@@ -323,7 +313,6 @@ h6{
     margin-left: 5%;
     align-items: flex-start;
 }
-
 .newsletter div p{
     width: 600px;
     line-height: 1.8;
@@ -336,8 +325,7 @@ h6{
 #inputNewsletter:focus{
     transform:scale(1.5);   
 }
-
-/*CSS Para paginas especificas*/
+/*****CSS Para paginas especificas******/
 
 /*posicion ilustracion h3 index*/
 .posicionIlustracion{
@@ -407,17 +395,9 @@ h6{
     margin-top: 3%;
     text-align: center;
 }
-.margenHerramientas{
-    padding-left: 5%;
-}
-
 /*******************************************************/
 /**************TIENDAS ONLINE***************************/
 /*******************************************************/
-
-
-/***************HERRAMIENTAS**************************/
-
 
 /************SECCION TIPOS DE TIENDAS*********************/
 .seccionServicios h5{

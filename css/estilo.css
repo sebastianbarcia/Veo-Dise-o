@@ -119,7 +119,7 @@ button {
 
 #button:hover {
   background-color: black;
-  box-shadow: 0px 0px 3px 1px rgba(204, 204, 204, 0.897);
+  box-shadow: 0px 0px 4px 1px rgba(204, 204, 204, 0.897);
   transform: scale(1.004); }
 
 #button {
@@ -174,7 +174,6 @@ button {
 .seccionServicios h2 {
   margin-top: 3%; }
 
-/**********MARGENES SECCIONES********/
 /*******SECCION 2 INDEX*********/
 .seccion2 {
   display: flex;
@@ -247,23 +246,20 @@ button {
   color: white;
   margin-bottom: 0%; }
 
+.margenHerramientas {
+  padding-left: 10%; }
+
 /*******METODOLOGIA DE TRABAJO***********/
 .metodologiaDeTrabajo {
   background-color: #dbdbdb;
   text-align: center; }
-
-h6 {
-  font-family: ´robotomedium´;
-  font-size: 240%;
-  margin: 3%; }
+  .metodologiaDeTrabajo p {
+    font-family: ´robotomedium´;
+    font-size: 137,5%; }
 
 .metodologia {
   font-family: ´robotoregular´;
   font-size: 150%; }
-
-.parrafoMetodologia {
-  font-family: ´robotomedium´;
-  font-size: 137,5%; }
 
 /***************PRESUPUESTO**************/
 .presupuesto {
@@ -301,7 +297,7 @@ h6 {
 #inputNewsletter:focus {
   transform: scale(1.5); }
 
-/*CSS Para paginas especificas*/
+/*****CSS Para paginas especificas******/
 /*posicion ilustracion h3 index*/
 .posicionIlustracion {
   height: 700px; }
@@ -365,13 +361,9 @@ h6 {
   margin-top: 3%;
   text-align: center; }
 
-.margenHerramientas {
-  padding-left: 5%; }
-
 /*******************************************************/
 /**************TIENDAS ONLINE***************************/
 /*******************************************************/
-/***************HERRAMIENTAS**************************/
 /************SECCION TIPOS DE TIENDAS*********************/
 .seccionServicios h5 {
   color: #2d2d2d;
@@ -447,7 +439,7 @@ h6 {
     display: block;
     padding-top: 65px; } }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   /*****INDEX - HEADER - FOOTER****/
   .seccion2 {
     padding-top: 4%; }
@@ -456,8 +448,6 @@ h6 {
   #tituloIndex, #tituloIndex--dos, #tituloIndex--tres, #tituloIndex--cuatro, #tituloIndex--cinco {
     font-size: 120%; }
   .titulodisenoweb {
-    font-size: 120%; }
-  .seccionServicios h2 {
     font-size: 120%; }
   #rSeccion3 {
     display: flex;
@@ -486,14 +476,19 @@ h6 {
   #redes {
     width: 10%; }
   /***********DISEÑO WEB*********/
-  .respMetodologia {
-    text-align: left; }
-  .parrafoMetodologia div {
-    padding: 2%; } }
+  .metodologiaDeTrabajo .margenMetodologia div {
+    padding: 2%;
+    padding-left: 10%; }
+  .metodologiaDeTrabajo p {
+    text-align: left; } }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 575px) {
   footer div {
-    padding-left: 0.5rem; } }
+    padding-left: 0.5rem; }
+  .margenHerramientas {
+    padding-left: 0%; }
+  #corte {
+    padding-left: 1.25rem; } }
 
 @media only screen and (max-width: 480px) {
   #tituloIndex, #tituloIndex--dos, #tituloIndex--tres, #tituloIndex--cuatro, #tituloIndex--cinco {
