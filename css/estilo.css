@@ -132,37 +132,87 @@ button {
 .responsive {
   width: 150px; }
 
-/************************************/
-/**************INDEX*****************/
-/************************************/
-/******PORTADA INDEX***********/
-#tituloIndex, #tituloIndex--dos, #tituloIndex--tres, #tituloIndex--cuatro, #tituloIndex--cinco {
-  color: #2d2d2d;
-  position: absolute;
-  text-align: center;
-  width: 100%;
-  margin-top: 10%;
-  padding-right: 10%;
-  padding-left: 10%; }
-
-#tituloIndex--dos {
-  margin-top: 30%;
+#botonSecundario {
+  background-color: white;
+  border-color: white;
   color: black; }
 
-#tituloIndex--tres {
-  margin-top: 30%;
-  text-align: right; }
+#botonSecundario:hover {
+  background-color: transparent;
+  color: white; }
 
-#tituloIndex--cuatro {
-  margin-bottom: 43%; }
+/*************WATSAPP*************/
+.btnWatsapp img {
+  background-color: #25d366;
+  border-radius: 60px;
+  height: 60px;
+  width: 60px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  padding: 10px;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  text-align: center; }
 
-#tituloIndex--cinco {
-  margin-bottom: 15%; }
+.btnWatsapp img:hover {
+  background-color: green; }
 
-.diseñoPortada {
+/***PORTADAS***/
+.disenoPortada, .portadaApp, .portadaIndex, .portadaGrafico, .portadaWeb, .portadaUx, .portadaTiendas {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 690px;
   display: flex;
-  position: relative;
-  align-items: center; }
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .disenoPortada img, .portadaApp img, .portadaIndex img, .portadaGrafico img, .portadaWeb img, .portadaUx img, .portadaTiendas img {
+    filter: grayscale(40%); }
+  .disenoPortada h1, .portadaApp h1, .portadaIndex h1, .portadaGrafico h1, .portadaWeb h1, .portadaUx h1, .portadaTiendas h1 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-right: 6%;
+    padding-left: 6%; }
+  .disenoPortada div, .portadaApp div, .portadaIndex div, .portadaGrafico div, .portadaWeb div, .portadaUx div, .portadaTiendas div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%; }
+  .disenoPortada a, .portadaApp a, .portadaIndex a, .portadaGrafico a, .portadaWeb a, .portadaUx a, .portadaTiendas a {
+    margin: 1%; }
+
+.scrolldown {
+  position: absolute;
+  top: 660px;
+  text-align: center;
+  transition: 0.5s; }
+
+.scrolldown:hover {
+  transform: translate(0px, 10px); }
+
+.portadaApp {
+  background-image: url(../assets/fotos/aplicaciones/aplicaciones.jpg); }
+
+.portadaIndex {
+  background-image: url(../assets/fotos/index/index2.jpg); }
+
+.portadaGrafico {
+  background-image: url(../assets/fotos/disenografico/portadadisenografico.jpg); }
+
+.portadaWeb {
+  background-image: url(../assets/fotos/disenoweb/disenoweb.jpg); }
+
+.portadaUx {
+  background-image: url(../assets/fotos/ux/ux.jpg); }
+
+.portadaTiendas {
+  background-image: url(../assets/fotos/tiendas/carrito2.jpg); }
 
 /*************SECCION SERVICIOS*****************/
 .seccionServicios {
@@ -445,7 +495,7 @@ button {
     padding-top: 4%; }
   .textoSeccion3 {
     padding-top: 4%; }
-  #tituloIndex, #tituloIndex--dos, #tituloIndex--tres, #tituloIndex--cuatro, #tituloIndex--cinco {
+  #tituloIndex {
     font-size: 120%; }
   .titulodisenoweb {
     font-size: 120%; }
@@ -491,7 +541,7 @@ button {
     padding-left: 1.25rem; } }
 
 @media only screen and (max-width: 480px) {
-  #tituloIndex, #tituloIndex--dos, #tituloIndex--tres, #tituloIndex--cuatro, #tituloIndex--cinco {
+  #tituloIndex {
     font-size: 90%; }
   .titulodisenoweb {
     font-size: 90%; }
