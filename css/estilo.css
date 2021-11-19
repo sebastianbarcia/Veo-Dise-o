@@ -441,9 +441,6 @@ button {
 .colorTeEscuchamos div h1 {
   text-align: center; }
 
-.colorTeEscuchamos {
-  background-image: linear-gradient(white, white, white, #dbdbdb, #dbdbdb, #dbdbdb); }
-
 .colorTeEscuchamos textarea {
   height: 200px; }
 
@@ -453,18 +450,10 @@ button {
 /*******************TABLET****************************/
 /*****************************************************/
 @media only screen and (max-width: 1024px) {
-  .seccion2 h3 {
-    font-size: 120%; }
-  .seccion2 p {
-    font-size: 90%; }
   .seccion2 {
     height: 0%; }
   .textoSeccion3 {
     height: 0%; }
-  .textoSeccion3 h3 {
-    font-size: 120%; }
-  .textoSeccion3 p {
-    font-size: 90%; }
   .seccion3 {
     padding-top: 3%;
     padding-bottom: 3%; }
@@ -472,10 +461,6 @@ button {
     height: 0%;
     padding-top: 3%;
     padding-bottom: 3%; }
-  .seccion4Flex p {
-    font-size: 90%; }
-  .seccion4Flex h3 {
-    font-size: 120%; }
   .rFooter h5 {
     font-size: 100%; }
   .rFooter a {
@@ -495,10 +480,6 @@ button {
     padding-top: 4%; }
   .textoSeccion3 {
     padding-top: 4%; }
-  #tituloIndex {
-    font-size: 120%; }
-  .titulodisenoweb {
-    font-size: 120%; }
   #rSeccion3 {
     display: flex;
     flex-direction: column-reverse;
@@ -509,12 +490,6 @@ button {
     width: 25%;
     align-items: center;
     padding: 2%; }
-  .colorNewsletter p {
-    font-size: 90%; }
-  .colorNewsletter h4 {
-    font-size: 120%; }
-  #inputNewsletter {
-    font-size: 80%; }
   #imgRespSecciones {
     width: 45%;
     align-items: center;
@@ -541,12 +516,6 @@ button {
     padding-left: 1.25rem; } }
 
 @media only screen and (max-width: 480px) {
-  #tituloIndex {
-    font-size: 90%; }
-  .titulodisenoweb {
-    font-size: 90%; }
-  .colorNewsletter p {
-    font-size: 60%; }
   footer div {
     padding-left: .5rem; }
   main {
