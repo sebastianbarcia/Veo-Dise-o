@@ -229,19 +229,14 @@ button {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: space-evenly;
-  height: 500px; }
+  height: 400px; }
 
 .seccion2 p {
-  line-height: 1.8;
-  text-align: center; }
+  line-height: 1.8; }
 
 .seccion2 img {
   justify-items: center; }
-
-.seccion2 h3 {
-  text-align: center; }
 
 .seccion2 button {
   text-align: center; }
@@ -254,21 +249,15 @@ button {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: space-evenly;
-  height: 500px; }
+  height: 400px; }
 
 .textoSeccion3 p {
-  line-height: 1.8;
-  text-align: center; }
+  line-height: 1.8; }
 
 /********SECCION 4 INDEX************/
 .seccion4 p {
-  line-height: 1.8;
-  text-align: center; }
-
-.seccion4 h3 {
-  text-align: center; }
+  line-height: 1.8; }
 
 .seccion4 img {
   justify-items: center; }
@@ -280,9 +269,8 @@ button {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: space-evenly;
-  height: 500px; }
+  height: 400px; }
 
 /************HERRAMIENTAS**************/
 .herramientasTitulo {
@@ -484,7 +472,7 @@ button {
     align-items: center;
     padding: 2%; }
   #imgRespSecciones {
-    width: 45%;
+    width: 85%;
     align-items: center;
     padding: 0%; }
   .rFooter {
@@ -501,6 +489,9 @@ button {
     text-align: left; } }
 
 @media only screen and (max-width: 575px) {
+  #margin {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem; }
   footer div {
     padding-left: 0.5rem; }
   .margenHerramientas {

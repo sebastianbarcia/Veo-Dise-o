@@ -43,7 +43,7 @@
       align-items: center;
       padding: 2%; }    
     #imgRespSecciones {
-      width: 45%;
+      width: 85%;
       align-items: center;
       padding: 0%; }
     .rFooter {
@@ -65,6 +65,10 @@
   }    
   
   @media only screen and (max-width: 575px) {
+    #margin{
+      padding-right: 1.5rem;
+      padding-left:1.5rem;
+    }
     footer div {
       padding-left: 0.5rem; } 
     
