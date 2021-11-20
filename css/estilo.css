@@ -444,11 +444,11 @@ button {
 .colorTeEscuchamos textarea {
   height: 200px; }
 
-/***************************************************************************************/
-/*****************************************MEDIA QUERIES*********************************/
-/***************************************************************************************/
-/*******************TABLET****************************/
-/*****************************************************/
+/*********************************************/
+/**************MEDIA QUERIES******************/
+/*********************************************/
+/*****************TABLET**********************/
+/*********************************************/
 @media only screen and (max-width: 1024px) {
   .seccion2 {
     height: 0%; }
@@ -461,12 +461,6 @@ button {
     height: 0%;
     padding-top: 3%;
     padding-bottom: 3%; }
-  .rFooter h5 {
-    font-size: 100%; }
-  .rFooter a {
-    font-size: 80%; }
-  .rFooter p {
-    font-size: 80%; }
   /*no agrandar imputs*/
   #inputNewsletter:focus {
     transform: none; }
@@ -475,7 +469,6 @@ button {
     padding-top: 65px; } }
 
 @media only screen and (max-width: 767px) {
-  /*****INDEX - HEADER - FOOTER****/
   .seccion2 {
     padding-top: 4%; }
   .textoSeccion3 {
@@ -521,6 +514,12 @@ button {
   main {
     display: block;
     padding-top: 67px; } }
+
+@media only screen and (max-width: 480px) {
+  .herramientasTitulo {
+    font-size: 80%; }
+  .herramientasParrafo {
+    font-size: 80%; } }
 
 /*******************************************/
 /*******************************************/
