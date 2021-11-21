@@ -90,8 +90,6 @@ footer h5{
 .colorCopy{
     color: $tipografiaCopy;
 }
-
-
 /**********TITULOS*************/
 h1{
     color: $tipografianormal;
@@ -251,38 +249,35 @@ button{
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;   
-    height: 400px; 
-}
-.seccion2 p{    
-    line-height: 1.8;     
+    p{
+        padding-top: 3%;
+        padding-bottom: 3%;
+        line-height: 1.8;
+    }
 }
 .seccion2 img{
     justify-items: center;      
 }
-
 .seccion2 button{ 
     text-align: center;    
 }
-
 /*************SECCION 3 INDEX******************/
 .seccion3{    
-    background-color: $seccion3;  
-      
+    background-color: $seccion3;        
 }
 .textoSeccion3 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;    
     justify-content: space-evenly;
-    height: 400px;
+    p{
+        padding-top: 3%;
+        padding-bottom: 3%;
+        line-height: 1.8;
+    }
 }
-.textoSeccion3 p{   
-    line-height: 1.8;     
-}
+
 /********SECCION 4 INDEX************/
-.seccion4 p{   
-    line-height: 1.8;   
-}
 .seccion4 img{
     justify-items: center;
 }
@@ -294,7 +289,11 @@ button{
     flex-direction: column;
     flex-wrap: wrap;   
     justify-content: space-evenly;
-    height: 400px;
+    p{
+        padding-top: 3%;
+        padding-bottom: 3%;
+        line-height: 1.8;
+    }
 }
 /************HERRAMIENTAS**************/
  
@@ -315,17 +314,12 @@ button{
 /*******METODOLOGIA DE TRABAJO***********/
 .metodologiaDeTrabajo{
     background-color: rgb(219,219,219);         
-    text-align: center; 
-    p{
-        font-family: $medium;
-        font-size: 137,5%;   
-    }         
+    text-align: center;          
 }
 .metodologia{
     font-family: $regular;
-    font-size: 150%;    
+    font-size: 120%;    
 }
-
 /***************PRESUPUESTO**************/
 .presupuesto{    
     text-align: center;

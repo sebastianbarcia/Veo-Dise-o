@@ -7,16 +7,25 @@
 @media only screen and (max-width: 1024px) {
     
     .seccion2 {
-      height: 0%; }
+      height: 0%;
+    }
     .textoSeccion3 {
-      height: 0%; }    
-    .seccion3 {
-      padding-top: 3%;
-      padding-bottom: 3%; }
+      height: 0%;
+      p{
+        padding-top: 3%;
+        padding-bottom: 3%;
+      }
+     }    
+    
     .seccion4Flex {
       height: 0%;
       padding-top: 3%;
-      padding-bottom: 3%; }
+      padding-bottom: 3%;
+    p{
+      padding-top: 3%;
+      padding-bottom: 3%;
+    }
+   }
     /*no agrandar imputs*/
     #inputNewsletter:focus{
       transform: none;

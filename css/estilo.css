@@ -229,11 +229,11 @@ button {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  height: 400px; }
-
-.seccion2 p {
-  line-height: 1.8; }
+  justify-content: space-evenly; }
+  .seccion2 p {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    line-height: 1.8; }
 
 .seccion2 img {
   justify-items: center; }
@@ -249,16 +249,13 @@ button {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  height: 400px; }
-
-.textoSeccion3 p {
-  line-height: 1.8; }
+  justify-content: space-evenly; }
+  .textoSeccion3 p {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    line-height: 1.8; }
 
 /********SECCION 4 INDEX************/
-.seccion4 p {
-  line-height: 1.8; }
-
 .seccion4 img {
   justify-items: center; }
 
@@ -269,8 +266,11 @@ button {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  height: 400px; }
+  justify-content: space-evenly; }
+  .seccion4Flex p {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    line-height: 1.8; }
 
 /************HERRAMIENTAS**************/
 .herramientasTitulo {
@@ -291,13 +291,10 @@ button {
 .metodologiaDeTrabajo {
   background-color: #dbdbdb;
   text-align: center; }
-  .metodologiaDeTrabajo p {
-    font-family: ´robotomedium´;
-    font-size: 137,5%; }
 
 .metodologia {
   font-family: ´robotoregular´;
-  font-size: 150%; }
+  font-size: 120%; }
 
 /***************PRESUPUESTO**************/
 .presupuesto {
@@ -442,13 +439,16 @@ button {
     height: 0%; }
   .textoSeccion3 {
     height: 0%; }
-  .seccion3 {
-    padding-top: 3%;
-    padding-bottom: 3%; }
+    .textoSeccion3 p {
+      padding-top: 3%;
+      padding-bottom: 3%; }
   .seccion4Flex {
     height: 0%;
     padding-top: 3%;
     padding-bottom: 3%; }
+    .seccion4Flex p {
+      padding-top: 3%;
+      padding-bottom: 3%; }
   /*no agrandar imputs*/
   #inputNewsletter:focus {
     transform: none; }
