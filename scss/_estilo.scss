@@ -215,7 +215,7 @@ button{
     }
 .portadaIndex{
     @extend.disenoPortada;
-        background-image: url(../assets/fotos/index/index2.jpg);
+        background-image: url(../assets/fotos/index/index.jpg);
     }
 .portadaGrafico{
     @extend.disenoPortada;
@@ -231,20 +231,18 @@ button{
     }
 .portadaTiendas{
     @extend.disenoPortada;
-        background-image: url(../assets/fotos/tiendas/carrito2.jpg);
+        background-image: url(../assets/fotos/tiendas/carrito.jpg);
     }
 /*************SECCION SERVICIOS*****************/
 .seccionServicios{
-    display: flex;
-    flex-direction: column;
-    flex-flow: wrap;
-    justify-content: center;    
+    @extend.secciones;
+    justify-content: center;   
 }
 .seccionServicios h2{
     margin-top: 3%;
 }
 /*******SECCION 2 INDEX*********/
-.seccion2{
+.secciones{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -254,47 +252,19 @@ button{
         padding-bottom: 3%;
         line-height: 1.8;
     }
+    img{
+        justify-items: center;
+    }
+    button{
+        text-align: center; 
+    }
 }
-.seccion2 img{
-    justify-items: center;      
-}
-.seccion2 button{ 
-    text-align: center;    
-}
+
 /*************SECCION 3 INDEX******************/
 .seccion3{    
     background-color: $seccion3;        
 }
-.textoSeccion3 {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;    
-    justify-content: space-evenly;
-    p{
-        padding-top: 3%;
-        padding-bottom: 3%;
-        line-height: 1.8;
-    }
-}
 
-/********SECCION 4 INDEX************/
-.seccion4 img{
-    justify-items: center;
-}
-.seccion4 button{ 
-   text-align: center;
-}
-.seccion4Flex{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;   
-    justify-content: space-evenly;
-    p{
-        padding-top: 3%;
-        padding-bottom: 3%;
-        line-height: 1.8;
-    }
-}
 /************HERRAMIENTAS**************/
  
 .herramientasTitulo{

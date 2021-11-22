@@ -4,12 +4,8 @@
 /*********************************************/
 /*****************TABLET**********************/
 /*********************************************/
-@media only screen and (max-width: 1024px) {
-    
-    .seccion2 {
-      height: 0%;
-    }
-    .textoSeccion3 {
+@media only screen and (max-width: 1024px) { 
+    .secciones {
       height: 0%;
       p{
         padding-top: 3%;
@@ -17,15 +13,6 @@
       }
      }    
     
-    .seccion4Flex {
-      height: 0%;
-      padding-top: 3%;
-      padding-bottom: 3%;
-    p{
-      padding-top: 3%;
-      padding-bottom: 3%;
-    }
-   }
     /*no agrandar imputs*/
     #inputNewsletter:focus{
       transform: none;
@@ -33,13 +20,11 @@
     main{
       display: block;
       padding-top: 65px;
-  }
     }
+  }
   
   @media only screen and (max-width: 767px) {    
-    .seccion2 {
-      padding-top: 4%; }
-    .textoSeccion3 {
+    .secciones {
       padding-top: 4%; }
     #rSeccion3 {
       display: flex;
@@ -88,9 +73,9 @@
     .margenHerramientas{
     padding-left: 0%;
 }
-#corte{
-  padding-left: 1.25rem;
-}
+    #corte{
+      padding-left: 1.25rem;
+    }
 }
   @media only screen and (max-width: 480px) {  
   .seccionHerramientas h2{
@@ -108,10 +93,10 @@
   
 }
 @media only screen and (max-width: 480px) {
-.herramientasTitulo{
-  font-size: 90%;
-}
-.herramientasParrafo{
-  font-size: 90%;
-}
+  .herramientasTitulo{
+    font-size: 90%;
+  }
+  .herramientasParrafo{
+    font-size: 90%;
+  }
 }

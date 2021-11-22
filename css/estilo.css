@@ -200,7 +200,7 @@ button {
   background-image: url(../assets/fotos/aplicaciones/aplicaciones.jpg); }
 
 .portadaIndex {
-  background-image: url(../assets/fotos/index/index2.jpg); }
+  background-image: url(../assets/fotos/index/index.jpg); }
 
 .portadaGrafico {
   background-image: url(../assets/fotos/disenografico/portadadisenografico.jpg); }
@@ -212,65 +212,33 @@ button {
   background-image: url(../assets/fotos/ux/ux.jpg); }
 
 .portadaTiendas {
-  background-image: url(../assets/fotos/tiendas/carrito2.jpg); }
+  background-image: url(../assets/fotos/tiendas/carrito.jpg); }
 
 /*************SECCION SERVICIOS*****************/
 .seccionServicios {
-  display: flex;
-  flex-direction: column;
-  flex-flow: wrap;
   justify-content: center; }
 
 .seccionServicios h2 {
   margin-top: 3%; }
 
 /*******SECCION 2 INDEX*********/
-.seccion2 {
+.secciones, .seccionServicios {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-evenly; }
-  .seccion2 p {
+  .secciones p, .seccionServicios p {
     padding-top: 3%;
     padding-bottom: 3%;
     line-height: 1.8; }
-
-.seccion2 img {
-  justify-items: center; }
-
-.seccion2 button {
-  text-align: center; }
+  .secciones img, .seccionServicios img {
+    justify-items: center; }
+  .secciones button, .seccionServicios button {
+    text-align: center; }
 
 /*************SECCION 3 INDEX******************/
 .seccion3 {
   background-color: #ecebeb; }
-
-.textoSeccion3 {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-evenly; }
-  .textoSeccion3 p {
-    padding-top: 3%;
-    padding-bottom: 3%;
-    line-height: 1.8; }
-
-/********SECCION 4 INDEX************/
-.seccion4 img {
-  justify-items: center; }
-
-.seccion4 button {
-  text-align: center; }
-
-.seccion4Flex {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-evenly; }
-  .seccion4Flex p {
-    padding-top: 3%;
-    padding-bottom: 3%;
-    line-height: 1.8; }
 
 /************HERRAMIENTAS**************/
 .herramientasTitulo {
@@ -435,18 +403,9 @@ button {
 /*****************TABLET**********************/
 /*********************************************/
 @media only screen and (max-width: 1024px) {
-  .seccion2 {
+  .secciones, .seccionServicios {
     height: 0%; }
-  .textoSeccion3 {
-    height: 0%; }
-    .textoSeccion3 p {
-      padding-top: 3%;
-      padding-bottom: 3%; }
-  .seccion4Flex {
-    height: 0%;
-    padding-top: 3%;
-    padding-bottom: 3%; }
-    .seccion4Flex p {
+    .secciones p, .seccionServicios p {
       padding-top: 3%;
       padding-bottom: 3%; }
   /*no agrandar imputs*/
@@ -457,9 +416,7 @@ button {
     padding-top: 65px; } }
 
 @media only screen and (max-width: 767px) {
-  .seccion2 {
-    padding-top: 4%; }
-  .textoSeccion3 {
+  .secciones, .seccionServicios {
     padding-top: 4%; }
   #rSeccion3 {
     display: flex;
