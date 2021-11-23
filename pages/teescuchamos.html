@@ -68,16 +68,16 @@
 					</div>			
 					<div class="col-lg-8">
 						<h3 class="pb-3">Escribenos y te responderemos en breve</h3>
-						<form action="">
+						<form method="post" action="../formulario.php">
 							<div class="row">
 								<div class="mb-3">									
-									<input type="text" text="name" class="form-control" id="exampleFormControlInput1" placeholder="Escribe tu nombre">
+									<input type="text" name="nombre" required="required" class="form-control" id="exampleFormControlInput1" placeholder="Escribe tu nombre">
 								</div> 
 								<div class="mb-3">
-									<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+									<input type="email" name="email" required="required" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
 								</div>
 								  <div class="mb-3">									
-									<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="¿En que te podemos ayudar?"></textarea>
+									<textarea class="form-control" required="required" name="mensaje" id="exampleFormControlTextarea1" rows="3" placeholder="¿En que te podemos ayudar?"></textarea>
 								  </div>
 								</div>
 								<div class="mb-3">
@@ -88,7 +88,7 @@
 								</div>
 								<div class="mb-5">
 									<!-- Button trigger modal -->
-									<button type="button" class="btn btn-primary" id="button" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+									<button type="submit" class="btn btn-primary" id="button" data-bs-toggle="modal" data-bs-target="#exampleModal1">
 									Enviar
 									</button>  
 									<!-- Modal -->
