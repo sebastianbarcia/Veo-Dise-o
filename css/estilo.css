@@ -397,6 +397,15 @@ button {
 .colorTeEscuchamos textarea {
   height: 200px; }
 
+/********REDIRECCION*********/
+.redireccion p, .redireccion a {
+  font-family: ´robotomedium´;
+  font-size: 180%;
+  text-align: center; }
+
+.enlace {
+  text-align: center; }
+
 /*********************************************/
 /**************MEDIA QUERIES******************/
 /*********************************************/
@@ -441,6 +450,13 @@ button {
     padding: 2%;
     padding-left: 10%; }
   .metodologiaDeTrabajo p {
+    text-align: center; }
+  /********REDIRECCION**********/
+  .redireccion p, .redireccion a {
+    font-family: ´robotomedium´;
+    font-size: 120%;
+    text-align: center; }
+  .enlace {
     text-align: center; } }
 
 @media only screen and (max-width: 575px) {
@@ -466,13 +482,21 @@ button {
     padding-left: .5rem; }
   main {
     display: block;
-    padding-top: 67px; } }
-
-@media only screen and (max-width: 480px) {
+    padding-top: 67px; }
   .herramientasTitulo {
     font-size: 90%; }
   .herramientasParrafo {
-    font-size: 90%; } }
+    font-size: 90%; }
+  .redireccion p, .redireccion a {
+    font-family: ´robotomedium´;
+    font-size: 90%;
+    text-align: center; }
+  .enlace {
+    text-align: center; } }
+
+@media only screen and (max-width: 320px) {
+  .redireccion a {
+    font-size: 60%; } }
 
 /*******************************************/
 /*******************************************/
