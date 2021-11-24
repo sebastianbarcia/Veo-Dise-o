@@ -1,1 +1,11 @@
-<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 37"><defs><style>.cls-1{fill:#fff;}</style></defs><path id="Icon_awesome-facebook-square" data-name="Icon awesome-facebook-square" class="cls-1" d="M32.61.58H4.33A3.85,3.85,0,0,0,.47,4.43V32.72a3.86,3.86,0,0,0,3.86,3.86h11V24.34H10.29V18.58h5.07v-4.4c0-5,3-7.75,7.52-7.75a30.17,30.17,0,0,1,4.46.39v4.9H24.83c-2.47,0-3.25,1.54-3.25,3.11v3.75h5.53l-.88,5.76H21.58V36.58h11a3.86,3.86,0,0,0,3.86-3.86V4.43A3.85,3.85,0,0,0,32.61.58Z"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 37 37" style="enable-background:new 0 0 37 37;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#D8D8D8;}
+</style>
+<path id="Icon_awesome-facebook-square" class="st0" d="M32.7,0.5H4.4c-2.1,0-3.9,1.7-3.9,3.8c0,0,0,0,0,0v28.3
+	c0,2.1,1.7,3.9,3.9,3.9c0,0,0,0,0,0h11V24.3h-5v-5.8h5.1v-4.4c0-5,3-7.8,7.5-7.8c1.5,0,3,0.1,4.5,0.4v4.9h-2.5
+	c-2.5,0-3.3,1.5-3.3,3.1v3.8h5.5l-0.9,5.8h-4.7v12.2h11c2.1,0,3.9-1.7,3.9-3.9l0,0V4.4C36.5,2.2,34.8,0.5,32.7,0.5z"/>
+</svg>

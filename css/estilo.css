@@ -34,7 +34,7 @@
 
 main {
   display: block;
-  padding-top: 60px; }
+  padding-top: 55px; }
 
 /*******************HEADER**************************/
 /************BARRA DE NAVEGACION HEADER*************/
@@ -65,7 +65,7 @@ footer a:hover {
 
 footer {
   background-color: #2d2d2d;
-  height: 420px; }
+  height: 380px; }
   footer a {
     font-family: ´robotoregular´;
     text-decoration: none;
@@ -77,9 +77,6 @@ footer {
 
 footer h5 {
   color: white; }
-
-.rFooter {
-  height: 300px; }
 
 .colorCopy {
   color: #707070; }
@@ -239,6 +236,10 @@ button {
 /*************SECCION 3 INDEX******************/
 .seccion3 {
   background-color: #ecebeb; }
+
+/*************SECCION UX*****************/
+.seccionUx {
+  background-color: #d6d6d6; }
 
 /************HERRAMIENTAS**************/
 .herramientasTitulo {
@@ -422,7 +423,7 @@ button {
     transform: none; }
   main {
     display: block;
-    padding-top: 65px; } }
+    padding-top: 54px; } }
 
 @media only screen and (max-width: 767px) {
   .seccionServicios {
@@ -439,10 +440,8 @@ button {
     width: 85%;
     align-items: center;
     padding: 0%; }
-  .rFooter {
-    align-items: center; }
   footer {
-    height: 660px; }
+    height: 600px; }
   #redes {
     width: 10%; }
   /***********DISEÑO WEB*********/
@@ -482,7 +481,7 @@ button {
     padding-left: .5rem; }
   main {
     display: block;
-    padding-top: 67px; }
+    padding-top: 52px; }
   .herramientasTitulo {
     font-size: 90%; }
   .herramientasParrafo {

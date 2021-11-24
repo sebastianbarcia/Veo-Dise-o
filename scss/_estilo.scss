@@ -31,7 +31,7 @@
 
 main{
     display: block;
-    padding-top: 60px;
+    padding-top: 55px;
 }
 /*******************HEADER**************************/
 
@@ -69,7 +69,7 @@ footer a:hover{
 
 footer{
     background-color: $primercolor;
-    height: 420px;    
+    height: 380px;    
     a{
         font-family: $regular;
         text-decoration: none;
@@ -80,12 +80,9 @@ footer{
 #redes{
     margin-right: 4%;
 }
+
 footer h5{
     color: $tipografiablanca;
-}
-
-.rFooter{
-    height: 300px;
 }
 .colorCopy{
     color: $tipografiaCopy;
@@ -264,7 +261,10 @@ button{
 .seccion3{    
     background-color: $seccion3;        
 }
-
+/*************SECCION UX*****************/
+.seccionUx{
+    background-color: $fondoux;
+}
 /************HERRAMIENTAS**************/
  
 .herramientasTitulo{
