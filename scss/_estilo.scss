@@ -45,6 +45,7 @@ header{
         font-size: 90%;
         color: $tipografianav2;
         transition: 0.5s;
+        font-family: $regular;
     }
 }
 
@@ -440,12 +441,16 @@ button{
     }
 }
 /********REDIRECCION*********/
+
 .redireccion{ 
     p,a{
     font-family: $medium;
     font-size: 180%;
     text-align: center;
-    }  
+    } 
+    h1{
+        text-align: center;
+    } 
 }
 .enlace{
     text-align: center;

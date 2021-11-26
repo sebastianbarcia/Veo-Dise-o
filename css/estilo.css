@@ -46,7 +46,8 @@ header {
   header a {
     font-size: 90%;
     color: #3a3333;
-    transition: 0.5s; }
+    transition: 0.5s;
+    font-family: ´robotoregular´; }
 
 #hoverNav {
   color: #d8d8d8; }
@@ -402,6 +403,9 @@ button {
 .redireccion p, .redireccion a {
   font-family: ´robotomedium´;
   font-size: 180%;
+  text-align: center; }
+
+.redireccion h1 {
   text-align: center; }
 
 .enlace {
