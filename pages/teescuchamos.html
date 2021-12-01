@@ -37,7 +37,7 @@
 							<a class="nav-link active" id="hoverNav" href="aplicaciones.html">Aplicaciones</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link active" id="hoverNav" href="disenografico.html">Diseño grafico</a>
+							<a class="nav-link active" id="hoverNav" href="disenografico.html">Diseño gráfico</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link active" id="hoverNav" href="teescuchamos.html">Te escuchamos</a>
@@ -53,7 +53,7 @@
 				<div class="row">
 					<h1 class="py-5">Queremos saber de ti!</h1>
 					<div class="col-12 col-lg-4">
-						<h3 class="pb-3">Contactanos</h3>
+						<h3 class="pb-3">Contáctanos</h3>
 						<div class="col-12 col-lg-12 align-items-center row pb-3">
 							<img class="col-2 col-md-1 col-lg-3" src="../assets/fotos/contacto/telefono.svg">
 							<div class="col-10 col-md-11 col-lg-9" >
@@ -68,8 +68,8 @@
 						</div>
 					</div>			
 					<div class="col-lg-8">
-						<h3 class="pb-3">Escribenos y te responderemos en breve</h3>
-						<form method="post" action="../formulario.php">
+						<h3 class="pb-3">Escríbenos y te responderemos en breve</h3>
+						<form method="post" action="../php/formulario.php">
 							<div class="row">
 								<div class="mb-3">									
 									<input type="text" name="nombre" required="required" class="form-control" id="exampleFormControlInput1" placeholder="Escribe tu nombre">
@@ -84,7 +84,7 @@
 								<div class="mb-3">
 						      		<div class="form-check">
 										<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-										<label class="form-check-label" for="flexCheckDefault"> Acepto la politica de privacidad </label>
+										<label class="form-check-label" for="flexCheckDefault"> Acepto la política de privacidad </label>
 									</div>
 								</div>
 								<div class="mb-5">									
@@ -101,38 +101,22 @@
 				<a href="https://api.whatsapp.com/send?phone=+34699631379&text=Este es el telefono de Veo diseño, nuestro horario de atencion es de lunes a viernes de 9 a 18 horas." class="float" target="_blank"><img src="../assets/fotos/index/whatsapp.svg"></a>
 			</aside>
 			<section class="colorNewsletter container-fluid">
-				<div class="container">
+				<div class="container">				
 					<div class="row justify-content-center align-items-center py-5">
 						<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12" id="imgResp" >
 							<img src="../assets/fotos/index/imagennewsletter.svg" class="img-fluid" alt="imagen newsletter">
 						</div>				  
 						<div class=" col-lg-6 col-md-8 col-sm-12 col-xs-12">
-							<h4>Newsletter</h4>			
-							<p>Suscribete y recibe las novedades sobre el diseño web, aplicaciones, marketing digital y diseño grafico en tu mail</p>
-							<input type="email" class="form-control mb-3 col-12"  id="inputNewsletter" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
-							<!-- Button trigger modal -->
-							<button type="button" class="btn btn-primary" id="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
-							Suscribete
-							</button>								
-							<!-- Modal -->
-							<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-								<div class="modal-dialog">
-									<div class="modal-content">
-										<div class="modal-header">
-											<h5 class="modal-title" id="exampleModalLabel">Newsletter</h5>
-											<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-										</div>
-										<div class="modal-body">
-										Gracias por suscribirte, tendras noticias nuestras en breve!
-										</div>
-										<div class="modal-footer">
-										<button type="button" class="btn btn-secondary" id="button" data-bs-dismiss="modal">Cerrar</button>									
-										</div>
-									</div>
-								</div>
-							</div>
+							<form method="post" action="../php/formnewsletter.php">
+								<h4>Newsletter</h4>			
+								<p>Suscríbete y recibe las novedades sobre el diseño web, aplicaciones, marketing digital y diseño grafico en tu mail</p>
+								<input type="email" name="email" required="required" class="form-control mb-3 col-12"  id="inputNewsletter" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+								<button type="submit" class="btn btn-primary" id="button">
+								Suscríbete
+								</button>							
+							</form>
 						</div>
-					</div>
+					</div>					
 				</div>
 			</div>
 		</section>		
