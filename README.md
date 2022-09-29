@@ -1,3 +1,5 @@
+![veo-diseño](https://user-images.githubusercontent.com/93622276/193048237-4effbc63-ca39-4fa1-b4df-bbbe64dabc9f.svg)
+
 # veo-diseno
 Sitio web para dar a conocer mis servicios de diseño y desarrollo web (diseño ux/ui - diseño grafico - desarrollo web)
 
