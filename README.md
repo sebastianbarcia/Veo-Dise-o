@@ -1,4 +1,8 @@
-# veo-diseno
+<div align="center">
+  <img width=300 src="https://user-images.githubusercontent.com/93622276/193540638-910805e3-549f-4987-95b9-08f614edf63b.svg" alt="Sublime's custom image"/>
+</div>
+
+# veo-diseño
 Sitio web para dar a conocer mis servicios de diseño y desarrollo web (diseño ux/ui - diseño grafico - desarrollo web)
 
 # Descripción general
